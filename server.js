@@ -6,7 +6,7 @@ app.get(["/", "/:name"], (req, res) => {
   greeting = "<h1>Hello World. I'm Node App</h1>";
   name = req.params["name"];
   if (name) {
-    res.send(greeting + "</br>And my name is " + name);
+    res.send(greeting + "</br>And my name iss " + name);
   } else {
     res.send(greeting);
   }
