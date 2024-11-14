@@ -2,7 +2,7 @@ name: Work 2 Dorx
 on:
   push:
     branches:
-    - test_1
+    - test_2
 jobs:
   build:
     runs-on: ubuntu-latest
