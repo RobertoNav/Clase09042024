@@ -8,4 +8,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: Print Something 1
-      run: echo "Rama 2 - Print 1"
+      run: echo "Rama 2 - Print 2"
