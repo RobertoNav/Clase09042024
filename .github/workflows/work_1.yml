@@ -1,4 +1,4 @@
-name: Work 1 Dorx
+name: Work 2 Dorx
 on:
   push:
     branches:
@@ -9,9 +9,3 @@ jobs:
     steps:
     - name: Print Something 1
       run: echo "Rama 1 - Print 1"
-
-    - name: Print Something 2
-      run: echo "Rama 1 - Print 2"
-
-    - name: Print Something 3
-      run: echo "Rama 1 - Print 3"
